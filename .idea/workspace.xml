@@ -5,27 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="04eea58c-b965-4c82-9ff8-280b59dd2b12" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cybersoft/cozastore_java21/entity/BlogEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cybersoft/cozastore_java21/entity/CategoryEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cybersoft/cozastore_java21/entity/CategoryTag.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cybersoft/cozastore_java21/entity/ColorEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cybersoft/cozastore_java21/entity/CommentEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cybersoft/cozastore_java21/entity/CountryEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cybersoft/cozastore_java21/entity/OrderDetailEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cybersoft/cozastore_java21/entity/OrderEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cybersoft/cozastore_java21/entity/ProductEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cybersoft/cozastore_java21/entity/SizeEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cybersoft/cozastore_java21/entity/TagBlogEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cybersoft/cozastore_java21/entity/TagEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cybersoft/cozastore_java21/entity/UserEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cybersoft/cozastore_java21/entity/ids/CategoryTagIds.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cybersoft/cozastore_java21/entity/ids/OrderDetailIds.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cybersoft/cozastore_java21/entity/ids/TagBlogIds.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cybersoft/cozastore_java21/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cybersoft/cozastore_java21/controller/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cybersoft/cozastore_java21/filter/JwtFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cybersoft/cozastore_java21/payload/request/SignupRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cybersoft/cozastore_java21/payload/response/BaseResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cybersoft/cozastore_java21/provider/CustomAuthenProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cybersoft/cozastore_java21/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cybersoft/cozastore_java21/service/Imp/UserServiceImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cybersoft/cozastore_java21/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cybersoft/cozastore_java21/utils/JwtHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -49,7 +53,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/git_project/cozastore_java21/src/main/java/com/cybersoft/cozastore_java21/entity/ids",
+    "last_opened_file_path": "D:/demosecurity21",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0"
@@ -59,6 +63,13 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\git_project\cozastore_java21\src\main\java\com\cybersoft\cozastore_java21\entity\ids" />
       <recent name="D:\git_project\cozastore_java21\src\main\java\com\cybersoft\cozastore_java21\entity" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.cybersoft.cozastore_java21.repository" />
+      <recent name="com.cybersoft.cozastore_java21.utils" />
+      <recent name="com.cybersoft.cozastore_java21.provider" />
+      <recent name="com.cybersoft.cozastore_java21.filter" />
+      <recent name="com.cybersoft.cozastore_java21.config" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
